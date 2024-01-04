@@ -1,0 +1,23 @@
+﻿TODO:
+    - Screen: 
+        - Get all screens data and save them in a file.
+        - Load all screens data from a file.
+    - WMI:
+        - Query all WMI data
+            -   Disks
+            -   PNPDevices 
+            -   AudioDevices
+            -   GPUDevices
+            -   
+
+
+BUG: [FIXED]
+    * Cuando se carga el segundo audio, 
+    si se le cambia el nombre en el TextBox
+    dejandole la extension del archivo, este no se almacena correctamente.
+    * Agregar un archivo de audio y guardarlo. OK
+    * Agregar otro archivo de audio (.wav) y guardarlo. OK
+    * Agregar otro archivo de audio y cambiarle solo el nombre dejandole la extension. ERR no se guarda. ni .mp3 ni .wav
+    * Agregar otro archivo de audio y cambiarle el nombre quitandole la extension. 
+    
+
